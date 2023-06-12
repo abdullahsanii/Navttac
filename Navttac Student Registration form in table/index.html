@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student Registration form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <i class="fa fa-bars" style="font-size: 32px"></i>
+        <div class="header-div">
+          <i id="icon-2" class="fa fa-download" style="font-size: 32px"></i>
+          <i class="fa fa-user" style="font-size: 32px"></i>
+        </div>
+      </header>
+      <h2>
+        Candidate Profile
+        <button>
+          <i
+            class="fa fa-check-square-o"
+            aria-hidden="true"
+            style="font-size: 25px"
+          ></i>
+          Submit Profile for review
+        </button>
+      </h2>
+      <div class="instruction">
+        <h3>Instruction</h3>
+        <ol>
+          <li>Enter your full name as pr CNIC/Passport</li>
+          <li>Make sure to provide valid phone no. and E-mail address</li>
+        </ol>
+      </div>
+      <form>
+        <table>
+          <tr>
+            <th colspan="4">Basic Information</th>
+          </tr>
+          <tr>
+            <td>First Name*</td>
+            <td>Last Name*</td>
+            <td>Gender*</td>
+            <td>Date of Birth*</td>
+            <!-- <td><input type="text" name="fullname" required /></td> -->
+          </tr>
+          <tr>
+            <td><input type="text" name="fullname" required /></td>
+            <td><input type="text" name="fullname" required /></td>
+            <td>
+              <select name="gender" id="gender">
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Other</option>
+              </select>
+            </td>
+            <td><input type="date" name="fullname" required /></td>
+          </tr>
+          <tr>
+            <td>C.N.I.C*</td>
+            <td>Mobile No.*</td>
+            <td>E-male*</td>
+            <!-- <td><input type="text" name="fullname" required /></td> -->
+          </tr>
+          <tr>
+            <td><input type="text" name="fullname" required /></td>
+            <td><input type="text" name="fullname" required /></td>
+            <td>
+              <input type="text" name="E-male" value="abdullah@gmaile.com" />
+            </td>
+          </tr>
+          <tr>
+            <td>District*</td>
+            <td>Domicile*</td>
+            <td colspan="2">Postale Address</td>
+            <!-- <td><input type="text" name="fullname" required /></td> -->
+          </tr>
+          <tr>
+            <td><input type="text" name="fullname" required /></td>
+            <td><input type="text" name="fullname" required /></td>
+            <td colspan="2">
+              <textarea name="" id="" cols="80" rows="5">
+              493-B Navttac Islamabad</textarea
+              >
+            </td>
+          </tr>
+          <!-- <tr>
+            <td colspan="2" style="text-align: center">
+              <input type="submit" value="Submit" />
+            </td>
+          </tr> -->
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

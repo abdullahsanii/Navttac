@@ -1,0 +1,101 @@
+span {
+  /* float: right; */
+}
+.container {
+  width: 1400px;
+  margin: 20px auto;
+}
+header {
+  background-color: aliceblue;
+  padding: 10px 5px;
+  border: 0.5px hidden black;
+  border-radius: 20px;
+  /* border-bottom: 1px solid purple; */
+  /* text-align: right; */
+  position: relative;
+}
+
+.header-div {
+  display: inline;
+  position: absolute;
+  right: 1%;
+}
+
+#icon-2 {
+  margin-right: 10px;
+}
+
+h2 {
+  position: relative;
+}
+button {
+  padding: 15px 10px;
+  background-color: blueviolet;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 20px;
+  font-size: 15px;
+  position: absolute;
+  right: 20px;
+}
+
+button:hover {
+  background-color: green;
+}
+.instruction {
+  color: red;
+  background-color: aliceblue;
+  border: 0.5px hidden black;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 2px 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+} */
