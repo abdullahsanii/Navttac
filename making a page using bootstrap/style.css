@@ -1,0 +1,18 @@
+article {
+  margin-top: 30px;
+}
+#second-row {
+  margin-top: 50px;
+}
+#third-row,
+#forth-row {
+  margin-top: 50px;
+}
+
+ul li {
+  font-size: 20px;
+  display: inline-block;
+}
+li {
+  padding: 10px;
+}
